@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---------------------- MATERIAL ICONS GOOGLE ---------------------->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Log_Funcionario</title>
+</head>
+<body>
+    <div class="login__container">
+        <form class="login__form">
+            <img src="./assets/img/brand-wordmark-colorf.png" alt="Senac logo">
+            <div class="login__inputs">
+                <label for="">Email</label>
+                <input type="email" placeholder="Digite seu email" required>
+                <label for="">Senha</label>
+                <div class="login__pass">
+                    <input type="password" placeholder="Digite sua senha" required id="input-pass">
+                    <span class="material-symbols-rounded" id="visibility">
+                        visibility_off
+                    </span>
+                </div>
+                <div class="login__reminder">
+                    <input type="checkbox" class="login__check-input">
+                    <label for="" class="login__check-label">Lembre-se de mim</label>
+                </div>
+            </div>
+            <a href="https://flickler.github.io/projeto-dashboard-system/" class="login__button">Conectar</a>
+        </form>
+        <div class="login__qrcode">
+            <h2>Entre com o código QR</h2>
+            <img src="./assets/img/qrcode.png" alt="qrcode">
+            <p>Escaneie o app móvel para se conectar.</p>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
